@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body >
+    <header>
+        <nav>
+            <h2 id="time">Time is:</h2>
+            <ul class="tabs">
+                <li class="tab is-active">
+                    <a data-switcher data-tab="1">Home</a>
+                </li>
+                <li class="tab">
+                    <a data-switcher data-tab="2">Career so far</a>
+                </li>
+                <li class="tab">
+                    <a data-switcher data-tab="3">Skills</a>
+                </li>
+                <li class="tab">
+                    <a data-switcher data-tab="4">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="pages">
+            <div class="page is-active" id = "home" data-page="1">
+                <h2 class= "active">Home</h2>
+                <p class = "home_info"><img class = "pfp" src="./mayank_photo.jpg"alt="">Hello all, I am Mayank Mukundam, Masters students at IIIT Hyderabad in CSE. Previous to masters, I was working with an IT Firm in Pune as a Software Developer. Talking about the technical interests my main field of interest lies in Robotics & Internet of things & I wish build my career in these fields if posiible. I also wish to create a product in the aforementioned technologies & support this underrated domain somehow. I have done my Btech in EXTC form PICT Pune, that's I have always been interested in amalgamation of these two fields Computers & Electronics. I also have keen interest in learning & designing Algorithms.</br>
+                Talking about my non-technical Interests I love listening Sports Podcasts & also enjoy palying some including table tennis & Cricket</p>
+            </div>
+            <div class="page" data-page="2">
+                <h2>Education</h2>
+                <p class = "education_container">International Institute of Information Technology</p>
+                    <p class="about_iiit">
+                <div class="alma_mater_container"><img src="https://www.iiit.ac.in/img/gallery/obh-thumb.jpg" alt="Profile Picture" class="alma_mater"> 
+                    <div class="middle">
+                        <div class="text"><a href="https://www.iiit.ac.in/" class="iiit_site">Visit IIIT Website</a></div>
+                   </div>
+                </div>
+               International Institute of Information Technology, Hyderabad (IIITH) is an autonomous university, founded as a not-for-profit public private partnership (N-PPP) in 1998, and is the first IIIT in India under this model. Over the years, the institute has evolved strong research programmes in various areas, with an emphasis on technology and applied research for industry and society. The institute facilitates interdisciplinary research and a seamless flow of knowledge. Several world-renowned centres of excellence are part of IIITH’s research portfolio. It has established various joint collaboration and co-innovation models with an industry outreach spanning significant national and multinational companies. Its innovative curriculum allows students the flexibility of selecting their courses and projects. Apart from academics the institute provides students with a comprehensive environment that promotes art and culture, sports, societal contributions and self-governance. Even undergraduate students get to participate in ongoing research and technology development - an opportunity unprecedented in India. As a result, a vibrant undergraduate programme co-exists along with a strong postgraduate programme.</p>
+                    
+               <h2 class="experience_container">Experience</h2>
+                  <p class="experience_title">Raja Software Labs</p>
+                <p><a href="https://www.rajasoftwarelabs.com/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbpbhjcnxeHo14RBEYDy2JDMDuzyBuZLnKch7LroNxRyBC1YM4pb3dfwLF7MkpgPYnefM&usqp=CAU" class="company_pfp"></a>
+                Raja Software Labs is a software development consultancy, focused on mobile technologies. We help companies bring their products to market quickly, efficiently, and with certainty.Whether you are developing software for smartphones, tablets or wearable devices, or building the hardware, RSL can help define, design, implement, test and ship your product.</p>
+
+
+                <a href="https://drive.google.com/file/d/1yfvSZB8oCwJXb6S5wDJsU8VmapwnwF00/view?usp=sharing" class="resume">Download CV</a>
+                
+
+            </div>
+            <div class="page" data-page="3">
+                <h2>Sills</h2>
+                <p class="coding_proficiency">Language Proficiency</p>
+                <p>HTML</p>
+                  <div class="skill_container">
+                     <div class="skill html">30%</div>
+                  </div>
+  
+             <p>CSS</p>
+                <div class="skill_container">
+                  <div class="skill css">40%%</div>
+                </div>
+                <p>JavaScript</p>
+                <div class="skill_container">
+                  <div class="skill js">50%</div>
+                </div>
+                <p>C++</p>
+                <div class="skill_container">
+                  <div class="skill cpp">60%</div>
+                </div>
+
+                <p>Java</p>
+                <div class="skill_container">
+                  <div class="skill java">65%</div>
+                </div>
+               </div>
+
+            <div class="page" data-page="4">
+                <h2 class="active">Contact me on<a href="https://www.linkedin.com/in/mayank-mukundam-007485134"><i class="fa fa-linkedin-square"></i></a>
+                <a href="https://github.com/mukundamMayank"><i class="fa fa-github-square"></i></a></h2>
+                
+                
+              <form action="#">
+                 <div class="container">
+                 <h1>Message Me</h1>
+                  <hr>
+
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+                  <label for="psw"><b>Name</b></label>
+                  <input type="text" placeholder="Enter Name" name="psw" id="psw" required>
+
+                  <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                <hr>
+                  <a href="mukundammayank2512@gmail.com"><button type="submit" class="registerbtn">Send Message</button></a>
+               </div>
+              </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
